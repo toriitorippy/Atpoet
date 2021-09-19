@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA447BE5DD46B5A83CAEA0C /* Pods_geosy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8860A46DBE77D5BCC322AC /* Pods_geosy.framework */; };
+		66809DCB5A5F46BE99046347 /* Pods_geosyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8914DE9211815CE65F9A1C9 /* Pods_geosyTests.framework */; };
+		6E14AD4B26C3DE210071255E /* PoemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14AD4A26C3DE210071255E /* PoemModel.swift */; };
+		6E14AD4D26C3DE960071255E /* PoemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14AD4C26C3DE960071255E /* PoemViewModel.swift */; };
+		6E2E00FA26CD5B27001B3B26 /* DownlodaFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2E00F926CD5B27001B3B26 /* DownlodaFunc.swift */; };
+		6E76AC3D26DDD88F00469795 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E76AC3C26DDD88F00469795 /* UserModel.swift */; };
+		6E8B313126F30B83002BEEA5 /* FriendUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B313026F30B83002BEEA5 /* FriendUserInfo.swift */; };
+		6E90988D26C8CA6300787304 /* PoemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90988C26C8CA6300787304 /* PoemView.swift */; };
+		6E90989526C8CEDC00787304 /* HomeStackedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90989426C8CEDC00787304 /* HomeStackedCardView.swift */; };
+		6E94C85D26B0E9AF0039D150 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94C85C26B0E9AF0039D150 /* ExampleView.swift */; };
+		6E94C85F26B0EF9F0039D150 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94C85E26B0EF9F0039D150 /* ExampleViewModel.swift */; };
+		6E94C86326B1523E0039D150 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94C86226B1523E0039D150 /* ExampleModel.swift */; };
+		6E94C86526B1650E0039D150 /* ExampleModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94C86426B1650E0039D150 /* ExampleModalView.swift */; };
+		6EA4EDE426D5345900D3ACC0 /* UserDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4EDE326D5345900D3ACC0 /* UserDataViewModel.swift */; };
+		6EA4EDE626D534A800D3ACC0 /* LoginContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4EDE526D534A800D3ACC0 /* LoginContentView.swift */; };
+		6EAD17F826C2C0DC0022AE1D /* HomeTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD17F726C2C0DC0022AE1D /* HomeTopBarView.swift */; };
+		6EAF1B8826DFA7CB00E4DCF8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF1B8726DFA7CB00E4DCF8 /* LoginView.swift */; };
+		6EAF1B8A26DFA89100E4DCF8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF1B8926DFA89100E4DCF8 /* RegisterView.swift */; };
+		6EBF99D726E33EDC0022DCAD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBF99D626E33EDC0022DCAD /* CardView.swift */; };
+		6EBF99DB26E3796B0022DCAD /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBF99DA26E3796B0022DCAD /* CardModel.swift */; };
+		6EE0BF9226F61D6100DD1C4A /* SignInWithAppleToFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0BF9126F61D6100DD1C4A /* SignInWithAppleToFirebase.swift */; };
+		6EE0BF9426F61EB700DD1C4A /* UserDatakeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0BF9326F61EB700DD1C4A /* UserDatakeychain.swift */; };
+		6EE0BF9626F61EEA00DD1C4A /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0BF9526F61EEA00DD1C4A /* Keychain.swift */; };
+		6EE0BF9826F61F4300DD1C4A /* SharedWebCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0BF9726F61F4300DD1C4A /* SharedWebCredential.swift */; };
+		6EE0BF9B26F61FD600DD1C4A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0BF9A26F61FD500DD1C4A /* UserData.swift */; };
+		6EE0BFA126F6296000DD1C4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0BFA026F6296000DD1C4A /* GoogleService-Info.plist */; };
+		6EFDDEE926A9CC3F00CD4767 /* AppKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A41BEC2693DCFC005E7E01 /* AppKey.swift */; };
+		CEB0D1ACE964EFF2A09B9F9C /* Pods_geosy_geosyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7A13F4BB8C58C715404541 /* Pods_geosy_geosyUITests.framework */; };
+		D802380A26EC7CA8000A8DD4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D802380926EC7CA8000A8DD4 /* SearchView.swift */; };
+		D829ADFC26EB280A00B3F991 /* VisitedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829ADFB26EB280A00B3F991 /* VisitedButtonView.swift */; };
+		D82E0F39268AA46200BDECA9 /* geosyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E0F38268AA46200BDECA9 /* geosyApp.swift */; };
+		D82E0F3B268AA46200BDECA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E0F3A268AA46200BDECA9 /* ContentView.swift */; };
+		D82E0F3D268AA46400BDECA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82E0F3C268AA46400BDECA9 /* Assets.xcassets */; };
+		D82E0F40268AA46400BDECA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82E0F3F268AA46400BDECA9 /* Preview Assets.xcassets */; };
+		D82E0F4B268AA46400BDECA9 /* geosyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E0F4A268AA46400BDECA9 /* geosyTests.swift */; };
+		D82E0F56268AA46400BDECA9 /* geosyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E0F55268AA46400BDECA9 /* geosyUITests.swift */; };
+		D843B11526DF6F9100FF964C /* PoemMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D843B11426DF6F9100FF964C /* PoemMapView.swift */; };
+		D843B11726DFA8C500FF964C /* FullCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D843B11626DFA8C500FF964C /* FullCardViewModel.swift */; };
+		D85C94AC26CB83F6006B97A7 /* PoeruPlaceMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C94AB26CB83F6006B97A7 /* PoeruPlaceMapView.swift */; };
+		D85C94AE26CBC8F8006B97A7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C94AD26CBC8F8006B97A7 /* ImagePicker.swift */; };
+		D85C94B026D33223006B97A7 /* PostedMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C94AF26D33222006B97A7 /* PostedMapView.swift */; };
+		D85C94B226D343B7006B97A7 /* ValidPostedMapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C94B126D343B7006B97A7 /* ValidPostedMapview.swift */; };
+		D85C94BB26D3D910006B97A7 /* DraftDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D85C94B926D3D910006B97A7 /* DraftDataModel.xcdatamodeld */; };
+		D85C94BD26D3DCCC006B97A7 /* DraftDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C94BC26D3DCCC006B97A7 /* DraftDataViewModel.swift */; };
+		D87CE19A26EE066A00577A06 /* PosterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87CE19926EE066A00577A06 /* PosterButtonView.swift */; };
+		D881D4B526C6C66F002F45A0 /* FrierndpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881D4B426C6C66F002F45A0 /* FrierndpageView.swift */; };
+		D889DA4426E7B2AE00AAF618 /* MiniCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889DA4326E7B2AE00AAF618 /* MiniCard.swift */; };
+		D889DA4626E7BB5800AAF618 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889DA4526E7BB5800AAF618 /* Utils.swift */; };
+		D889DA4826E89DFE00AAF618 /* GoogleMapsRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889DA4726E89DFE00AAF618 /* GoogleMapsRepresentable.swift */; };
+		D889DA4A26E8FCDE00AAF618 /* BookMarkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889DA4926E8FCDE00AAF618 /* BookMarkButtonView.swift */; };
+		D895C92026AEAB8900A645D5 /* PoeruPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895C91F26AEAB8900A645D5 /* PoeruPlaceView.swift */; };
+		D89F605A269BBC1B003EC4C2 /* FullCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F6059269BBC1B003EC4C2 /* FullCardView.swift */; };
+		D8A35FC026D4DF3B00CC1286 /* DraftListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A35FBF26D4DF3B00CC1286 /* DraftListView.swift */; };
+		D8A35FC226D4DFB400CC1286 /* DraftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A35FC126D4DFB400CC1286 /* DraftView.swift */; };
+		D8A41BC82693D3B4005E7E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A41BC72693D3B4005E7E01 /* AppDelegate.swift */; };
+		D8A41BD52693D589005E7E01 /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A41BD42693D589005E7E01 /* GoogleMapsView.swift */; };
+		D8A41BE02693D829005E7E01 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A41BDF2693D829005E7E01 /* CoreLocation.framework */; };
+		D8AF001926C75E26003F21C7 /* FollowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF001826C75E26003F21C7 /* FollowerView.swift */; };
+		D8AF001B26C76312003F21C7 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF001A26C76312003F21C7 /* PostView.swift */; };
+		D8AF001D26C76866003F21C7 /* DestinationFriendpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF001C26C76866003F21C7 /* DestinationFriendpageView.swift */; };
+		D8AF001F26C7A6A6003F21C7 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF001E26C7A6A6003F21C7 /* UserInfoView.swift */; };
+		D8AF002126C7AC63003F21C7 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF002026C7AC63003F21C7 /* EditView.swift */; };
+		D8D19D5326C0BE24004DB441 /* PoeruView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D19D5226C0BE24004DB441 /* PoeruView.swift */; };
+		D8D32BB226EA58F500AD8D5E /* VHSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D32BB126EA58F500AD8D5E /* VHSelectView.swift */; };
+		D8E2749726EE42ED00F03689 /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E2749626EE42ED00F03689 /* UserCardView.swift */; };
+		D8E2749926EEF68E00F03689 /* MasterPoeruView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E2749826EEF68E00F03689 /* MasterPoeruView.swift */; };
+		D8E2749B26EEF70A00F03689 /* MasterPoeruPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E2749A26EEF70A00F03689 /* MasterPoeruPlaceView.swift */; };
+		D8E2749D26EEF74800F03689 /* MasterPoeruPlaceMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E2749C26EEF74800F03689 /* MasterPoeruPlaceMapView.swift */; };
+		D8E274A026EF0CFF00F03689 /* DestinationFullCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E2749F26EF0CFF00F03689 /* DestinationFullCardView.swift */; };
+		D8EA83B226F21A0B0075EAD4 /* StackedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA83B126F21A0B0075EAD4 /* StackedCardView.swift */; };
+		D8EF842226DDE885004B2772 /* VertivalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EF842126DDE885004B2772 /* VertivalTextView.swift */; };
+		D8FD98EC26C6B1B3007C2D89 /* MypageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FD98EB26C6B1B3007C2D89 /* MypageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D82E0F47268AA46400BDECA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82E0F2D268AA46200BDECA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82E0F34268AA46200BDECA9;
+			remoteInfo = geosy;
+		};
+		D82E0F52268AA46400BDECA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82E0F2D268AA46200BDECA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82E0F34268AA46200BDECA9;
+			remoteInfo = geosy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AC13CF59493FC62D5F0AAB2 /* Pods-geosy-geosyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geosy-geosyUITests.release.xcconfig"; path = "Target Support Files/Pods-geosy-geosyUITests/Pods-geosy-geosyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BCD6414A7EB20702B3FDD0D /* Pods-geosy-geosyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geosy-geosyUITests.debug.xcconfig"; path = "Target Support Files/Pods-geosy-geosyUITests/Pods-geosy-geosyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D464F0E6109D2486F72359D /* Pods-geosy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geosy.release.xcconfig"; path = "Target Support Files/Pods-geosy/Pods-geosy.release.xcconfig"; sourceTree = "<group>"; };
+		6E14AD4A26C3DE210071255E /* PoemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemModel.swift; sourceTree = "<group>"; };
+		6E14AD4C26C3DE960071255E /* PoemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemViewModel.swift; sourceTree = "<group>"; };
+		6E2E00F926CD5B27001B3B26 /* DownlodaFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownlodaFunc.swift; sourceTree = "<group>"; };
+		6E76AC3C26DDD88F00469795 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		6E8B313026F30B83002BEEA5 /* FriendUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendUserInfo.swift; sourceTree = "<group>"; };
+		6E8B313226F39D1B002BEEA5 /* geosy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = geosy.entitlements; sourceTree = "<group>"; };
+		6E90988C26C8CA6300787304 /* PoemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemView.swift; sourceTree = "<group>"; };
+		6E90989426C8CEDC00787304 /* HomeStackedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStackedCardView.swift; sourceTree = "<group>"; };
+		6E94C85C26B0E9AF0039D150 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		6E94C85E26B0EF9F0039D150 /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
+		6E94C86226B1523E0039D150 /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
+		6E94C86426B1650E0039D150 /* ExampleModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModalView.swift; sourceTree = "<group>"; };
+		6EA4EDE326D5345900D3ACC0 /* UserDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewModel.swift; sourceTree = "<group>"; };
+		6EA4EDE526D534A800D3ACC0 /* LoginContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContentView.swift; sourceTree = "<group>"; };
+		6EAD17F726C2C0DC0022AE1D /* HomeTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopBarView.swift; sourceTree = "<group>"; };
+		6EAF1B8726DFA7CB00E4DCF8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6EAF1B8926DFA89100E4DCF8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		6EBF99D626E33EDC0022DCAD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6EBF99DA26E3796B0022DCAD /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		6EE0BF9126F61D6100DD1C4A /* SignInWithAppleToFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleToFirebase.swift; sourceTree = "<group>"; };
+		6EE0BF9326F61EB700DD1C4A /* UserDatakeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDatakeychain.swift; sourceTree = "<group>"; };
+		6EE0BF9526F61EEA00DD1C4A /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		6EE0BF9726F61F4300DD1C4A /* SharedWebCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedWebCredential.swift; sourceTree = "<group>"; };
+		6EE0BF9A26F61FD500DD1C4A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		6EE0BFA026F6296000DD1C4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70CAFCDCEA4192601A8E39ED /* Pods-geosy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geosy.debug.xcconfig"; path = "Target Support Files/Pods-geosy/Pods-geosy.debug.xcconfig"; sourceTree = "<group>"; };
+		76C3003B5B22DAED1ACB868B /* Pods-geosyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geosyTests.debug.xcconfig"; path = "Target Support Files/Pods-geosyTests/Pods-geosyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D802380926EC7CA8000A8DD4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D829ADFB26EB280A00B3F991 /* VisitedButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitedButtonView.swift; sourceTree = "<group>"; };
+		D82E0F35268AA46200BDECA9 /* geosy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geosy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82E0F38268AA46200BDECA9 /* geosyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geosyApp.swift; sourceTree = "<group>"; };
+		D82E0F3A268AA46200BDECA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D82E0F3C268AA46400BDECA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D82E0F3F268AA46400BDECA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D82E0F41268AA46400BDECA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82E0F46268AA46400BDECA9 /* geosyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geosyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82E0F4A268AA46400BDECA9 /* geosyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geosyTests.swift; sourceTree = "<group>"; };
+		D82E0F4C268AA46400BDECA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82E0F51268AA46400BDECA9 /* geosyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geosyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82E0F55268AA46400BDECA9 /* geosyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geosyUITests.swift; sourceTree = "<group>"; };
+		D82E0F57268AA46400BDECA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D843B11426DF6F9100FF964C /* PoemMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemMapView.swift; sourceTree = "<group>"; };
+		D843B11626DFA8C500FF964C /* FullCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCardViewModel.swift; sourceTree = "<group>"; };
+		D85C94AB26CB83F6006B97A7 /* PoeruPlaceMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoeruPlaceMapView.swift; sourceTree = "<group>"; };
+		D85C94AD26CBC8F8006B97A7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D85C94AF26D33222006B97A7 /* PostedMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostedMapView.swift; sourceTree = "<group>"; };
+		D85C94B126D343B7006B97A7 /* ValidPostedMapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPostedMapview.swift; sourceTree = "<group>"; };
+		D85C94BA26D3D910006B97A7 /* PostDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostDataModel.xcdatamodel; sourceTree = "<group>"; };
+		D85C94BC26D3DCCC006B97A7 /* DraftDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftDataViewModel.swift; sourceTree = "<group>"; };
+		D87CE19926EE066A00577A06 /* PosterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterButtonView.swift; sourceTree = "<group>"; };
+		D881D4B426C6C66F002F45A0 /* FrierndpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrierndpageView.swift; sourceTree = "<group>"; };
+		D889DA4326E7B2AE00AAF618 /* MiniCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCard.swift; sourceTree = "<group>"; };
+		D889DA4526E7BB5800AAF618 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D889DA4726E89DFE00AAF618 /* GoogleMapsRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsRepresentable.swift; sourceTree = "<group>"; };
+		D889DA4926E8FCDE00AAF618 /* BookMarkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkButtonView.swift; sourceTree = "<group>"; };
+		D8914DE9211815CE65F9A1C9 /* Pods_geosyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geosyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D895C91F26AEAB8900A645D5 /* PoeruPlaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoeruPlaceView.swift; sourceTree = "<group>"; };
+		D89F6059269BBC1B003EC4C2 /* FullCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCardView.swift; sourceTree = "<group>"; };
+		D8A35FBF26D4DF3B00CC1286 /* DraftListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftListView.swift; sourceTree = "<group>"; };
+		D8A35FC126D4DFB400CC1286 /* DraftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftView.swift; sourceTree = "<group>"; };
+		D8A41BB72693D20B005E7E01 /* Podfile copy */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Podfile copy"; sourceTree = "<group>"; };
+		D8A41BC72693D3B4005E7E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = geosy/AppDelegate.swift; sourceTree = "<group>"; };
+		D8A41BD42693D589005E7E01 /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		D8A41BDF2693D829005E7E01 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8A41BEC2693DCFC005E7E01 /* AppKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKey.swift; sourceTree = "<group>"; };
+		D8AF001826C75E26003F21C7 /* FollowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerView.swift; sourceTree = "<group>"; };
+		D8AF001A26C76312003F21C7 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		D8AF001C26C76866003F21C7 /* DestinationFriendpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationFriendpageView.swift; sourceTree = "<group>"; };
+		D8AF001E26C7A6A6003F21C7 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		D8AF002026C7AC63003F21C7 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		D8D19D5126C0B859004DB441 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D8D19D5226C0BE24004DB441 /* PoeruView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoeruView.swift; sourceTree = "<group>"; };
+		D8D32BB126EA58F500AD8D5E /* VHSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHSelectView.swift; sourceTree = "<group>"; };
+		D8E2749626EE42ED00F03689 /* UserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
+		D8E2749826EEF68E00F03689 /* MasterPoeruView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterPoeruView.swift; sourceTree = "<group>"; };
+		D8E2749A26EEF70A00F03689 /* MasterPoeruPlaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterPoeruPlaceView.swift; sourceTree = "<group>"; };
+		D8E2749C26EEF74800F03689 /* MasterPoeruPlaceMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterPoeruPlaceMapView.swift; sourceTree = "<group>"; };
+		D8E2749F26EF0CFF00F03689 /* DestinationFullCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationFullCardView.swift; sourceTree = "<group>"; };
+		D8EA83B126F21A0B0075EAD4 /* StackedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StackedCardView.swift; path = geosy/View/Components/StackedCardView.swift; sourceTree = SOURCE_ROOT; };
+		D8EF842126DDE885004B2772 /* VertivalTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertivalTextView.swift; sourceTree = "<group>"; };
+		D8FD98EB26C6B1B3007C2D89 /* MypageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageView.swift; sourceTree = "<group>"; };
+		DF7A13F4BB8C58C715404541 /* Pods_geosy_geosyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geosy_geosyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8860A46DBE77D5BCC322AC /* Pods_geosy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geosy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0BBC0EA661332A2B56645A /* Pods-geosyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geosyTests.release.xcconfig"; path = "Target Support Files/Pods-geosyTests/Pods-geosyTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82E0F32268AA46200BDECA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A41BE02693D829005E7E01 /* CoreLocation.framework in Frameworks */,
+				3CA447BE5DD46B5A83CAEA0C /* Pods_geosy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82E0F43268AA46400BDECA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66809DCB5A5F46BE99046347 /* Pods_geosyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82E0F4E268AA46400BDECA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB0D1ACE964EFF2A09B9F9C /* Pods_geosy_geosyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		471C5C5C66A73902A04C2B5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70CAFCDCEA4192601A8E39ED /* Pods-geosy.debug.xcconfig */,
+				5D464F0E6109D2486F72359D /* Pods-geosy.release.xcconfig */,
+				5BCD6414A7EB20702B3FDD0D /* Pods-geosy-geosyUITests.debug.xcconfig */,
+				4AC13CF59493FC62D5F0AAB2 /* Pods-geosy-geosyUITests.release.xcconfig */,
+				76C3003B5B22DAED1ACB868B /* Pods-geosyTests.debug.xcconfig */,
+				ED0BBC0EA661332A2B56645A /* Pods-geosyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E76AC3A26DDB67100469795 /* ExampleView */ = {
+			isa = PBXGroup;
+			children = (
+				6E94C85C26B0E9AF0039D150 /* ExampleView.swift */,
+				6E94C86426B1650E0039D150 /* ExampleModalView.swift */,
+			);
+			path = ExampleView;
+			sourceTree = "<group>";
+		};
+		6E76AC3B26DDB9C700469795 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4EDE526D534A800D3ACC0 /* LoginContentView.swift */,
+				6EAF1B8926DFA89100E4DCF8 /* RegisterView.swift */,
+				6EAF1B8726DFA7CB00E4DCF8 /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		6E94C86026B151B30039D150 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4EDE326D5345900D3ACC0 /* UserDataViewModel.swift */,
+				6E94C85E26B0EF9F0039D150 /* ExampleViewModel.swift */,
+				D843B11626DFA8C500FF964C /* FullCardViewModel.swift */,
+				6E14AD4C26C3DE960071255E /* PoemViewModel.swift */,
+				D85C94BC26D3DCCC006B97A7 /* DraftDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6E94C86126B152140039D150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E94C86226B1523E0039D150 /* ExampleModel.swift */,
+				6E14AD4A26C3DE210071255E /* PoemModel.swift */,
+				6EBF99DA26E3796B0022DCAD /* CardModel.swift */,
+				D889DA4526E7BB5800AAF618 /* Utils.swift */,
+				D85C94B926D3D910006B97A7 /* DraftDataModel.xcdatamodeld */,
+				6E76AC3C26DDD88F00469795 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EAD17F926C2C0FF0022AE1D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA83B126F21A0B0075EAD4 /* StackedCardView.swift */,
+				D889DA4926E8FCDE00AAF618 /* BookMarkButtonView.swift */,
+				D8E2749F26EF0CFF00F03689 /* DestinationFullCardView.swift */,
+				D829ADFB26EB280A00B3F991 /* VisitedButtonView.swift */,
+				D89F6059269BBC1B003EC4C2 /* FullCardView.swift */,
+				D87CE19926EE066A00577A06 /* PosterButtonView.swift */,
+				D802380926EC7CA8000A8DD4 /* SearchView.swift */,
+				D85C94AF26D33222006B97A7 /* PostedMapView.swift */,
+				6EAD17F726C2C0DC0022AE1D /* HomeTopBarView.swift */,
+				6EBF99D626E33EDC0022DCAD /* CardView.swift */,
+				6EE0BF9126F61D6100DD1C4A /* SignInWithAppleToFirebase.swift */,
+				6EE0BF9326F61EB700DD1C4A /* UserDatakeychain.swift */,
+				6EE0BF9A26F61FD500DD1C4A /* UserData.swift */,
+				6EE0BF9526F61EEA00DD1C4A /* Keychain.swift */,
+				6EE0BF9726F61F4300DD1C4A /* SharedWebCredential.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6EAD17FA26C2C2CF0022AE1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D85C94B426D3738B006B97A7 /* PoemView */,
+				6E76AC3B26DDB9C700469795 /* LoginView */,
+				6E76AC3A26DDB67100469795 /* ExampleView */,
+				D85C94B526D373C5006B97A7 /* GoogleMapsView */,
+				D85C94B626D37403006B97A7 /* MyPageView */,
+				D85C94B326D372FE006B97A7 /* PoeruView */,
+				6EAD17F926C2C0FF0022AE1D /* Components */,
+				D8E2749E26EEF82500F03689 /* MasterPoeruView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77B79270D81EC31B19B62F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8A41BDF2693D829005E7E01 /* CoreLocation.framework */,
+				D8A41BB72693D20B005E7E01 /* Podfile copy */,
+				DF8860A46DBE77D5BCC322AC /* Pods_geosy.framework */,
+				DF7A13F4BB8C58C715404541 /* Pods_geosy_geosyUITests.framework */,
+				D8914DE9211815CE65F9A1C9 /* Pods_geosyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D814DEFF26F6612900448D7E /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		D82E0F2C268AA46200BDECA9 = {
+			isa = PBXGroup;
+			children = (
+				D8A41BC72693D3B4005E7E01 /* AppDelegate.swift */,
+				D8A41BEC2693DCFC005E7E01 /* AppKey.swift */,
+				D8D19D5126C0B859004DB441 /* README.md */,
+				D814DEFF26F6612900448D7E /* image */,
+				D82E0F37268AA46200BDECA9 /* geosy */,
+				D82E0F49268AA46400BDECA9 /* geosyTests */,
+				D82E0F54268AA46400BDECA9 /* geosyUITests */,
+				D82E0F36268AA46200BDECA9 /* Products */,
+				471C5C5C66A73902A04C2B5B /* Pods */,
+				77B79270D81EC31B19B62F3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D82E0F36268AA46200BDECA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82E0F35268AA46200BDECA9 /* geosy.app */,
+				D82E0F46268AA46400BDECA9 /* geosyTests.xctest */,
+				D82E0F51268AA46400BDECA9 /* geosyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82E0F37268AA46200BDECA9 /* geosy */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B313226F39D1B002BEEA5 /* geosy.entitlements */,
+				6EAD17FA26C2C2CF0022AE1D /* View */,
+				6E94C86126B152140039D150 /* Model */,
+				6E94C86026B151B30039D150 /* ViewModel */,
+				D82E0F38268AA46200BDECA9 /* geosyApp.swift */,
+				D82E0F3A268AA46200BDECA9 /* ContentView.swift */,
+				6EE0BFA026F6296000DD1C4A /* GoogleService-Info.plist */,
+				D82E0F3C268AA46400BDECA9 /* Assets.xcassets */,
+				D82E0F41268AA46400BDECA9 /* Info.plist */,
+				D82E0F3E268AA46400BDECA9 /* Preview Content */,
+				6E2E00F926CD5B27001B3B26 /* DownlodaFunc.swift */,
+			);
+			path = geosy;
+			sourceTree = "<group>";
+		};
+		D82E0F3E268AA46400BDECA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D82E0F3F268AA46400BDECA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D82E0F49268AA46400BDECA9 /* geosyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D82E0F4A268AA46400BDECA9 /* geosyTests.swift */,
+				D82E0F4C268AA46400BDECA9 /* Info.plist */,
+			);
+			path = geosyTests;
+			sourceTree = "<group>";
+		};
+		D82E0F54268AA46400BDECA9 /* geosyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D82E0F55268AA46400BDECA9 /* geosyUITests.swift */,
+				D82E0F57268AA46400BDECA9 /* Info.plist */,
+			);
+			path = geosyUITests;
+			sourceTree = "<group>";
+		};
+		D85C94B326D372FE006B97A7 /* PoeruView */ = {
+			isa = PBXGroup;
+			children = (
+				D8D19D5226C0BE24004DB441 /* PoeruView.swift */,
+				D8D32BB126EA58F500AD8D5E /* VHSelectView.swift */,
+				D895C91F26AEAB8900A645D5 /* PoeruPlaceView.swift */,
+				D85C94AB26CB83F6006B97A7 /* PoeruPlaceMapView.swift */,
+				D85C94B126D343B7006B97A7 /* ValidPostedMapview.swift */,
+				D85C94AD26CBC8F8006B97A7 /* ImagePicker.swift */,
+				D8A35FBF26D4DF3B00CC1286 /* DraftListView.swift */,
+				D8A35FC126D4DFB400CC1286 /* DraftView.swift */,
+			);
+			path = PoeruView;
+			sourceTree = "<group>";
+		};
+		D85C94B426D3738B006B97A7 /* PoemView */ = {
+			isa = PBXGroup;
+			children = (
+				D8EF842126DDE885004B2772 /* VertivalTextView.swift */,
+				D843B11426DF6F9100FF964C /* PoemMapView.swift */,
+				6E90988C26C8CA6300787304 /* PoemView.swift */,
+				6E90989426C8CEDC00787304 /* HomeStackedCardView.swift */,
+			);
+			path = PoemView;
+			sourceTree = "<group>";
+		};
+		D85C94B526D373C5006B97A7 /* GoogleMapsView */ = {
+			isa = PBXGroup;
+			children = (
+				D8A41BD42693D589005E7E01 /* GoogleMapsView.swift */,
+				D889DA4726E89DFE00AAF618 /* GoogleMapsRepresentable.swift */,
+				D889DA4326E7B2AE00AAF618 /* MiniCard.swift */,
+			);
+			path = GoogleMapsView;
+			sourceTree = "<group>";
+		};
+		D85C94B626D37403006B97A7 /* MyPageView */ = {
+			isa = PBXGroup;
+			children = (
+				D8FD98EB26C6B1B3007C2D89 /* MypageView.swift */,
+				D8AF002026C7AC63003F21C7 /* EditView.swift */,
+				D8E2749626EE42ED00F03689 /* UserCardView.swift */,
+				D8AF001A26C76312003F21C7 /* PostView.swift */,
+				D8AF001826C75E26003F21C7 /* FollowerView.swift */,
+				D881D4B426C6C66F002F45A0 /* FrierndpageView.swift */,
+				D8AF001E26C7A6A6003F21C7 /* UserInfoView.swift */,
+				6E8B313026F30B83002BEEA5 /* FriendUserInfo.swift */,
+				D8AF001C26C76866003F21C7 /* DestinationFriendpageView.swift */,
+			);
+			path = MyPageView;
+			sourceTree = "<group>";
+		};
+		D8E2749E26EEF82500F03689 /* MasterPoeruView */ = {
+			isa = PBXGroup;
+			children = (
+				D8E2749C26EEF74800F03689 /* MasterPoeruPlaceMapView.swift */,
+				D8E2749826EEF68E00F03689 /* MasterPoeruView.swift */,
+				D8E2749A26EEF70A00F03689 /* MasterPoeruPlaceView.swift */,
+			);
+			path = MasterPoeruView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82E0F34268AA46200BDECA9 /* geosy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82E0F5A268AA46400BDECA9 /* Build configuration list for PBXNativeTarget "geosy" */;
+			buildPhases = (
+				3699998D22198DB50C117EFB /* [CP] Check Pods Manifest.lock */,
+				D82E0F31268AA46200BDECA9 /* Sources */,
+				D82E0F32268AA46200BDECA9 /* Frameworks */,
+				D82E0F33268AA46200BDECA9 /* Resources */,
+				4C951E2020927081217C3B9D /* [CP] Copy Pods Resources */,
+				BDC0C3F8A13F6098C64F91D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geosy;
+			productName = geosy;
+			productReference = D82E0F35268AA46200BDECA9 /* geosy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D82E0F45268AA46400BDECA9 /* geosyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82E0F5D268AA46400BDECA9 /* Build configuration list for PBXNativeTarget "geosyTests" */;
+			buildPhases = (
+				2F948E078463274DF4913693 /* [CP] Check Pods Manifest.lock */,
+				D82E0F42268AA46400BDECA9 /* Sources */,
+				D82E0F43268AA46400BDECA9 /* Frameworks */,
+				D82E0F44268AA46400BDECA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82E0F48268AA46400BDECA9 /* PBXTargetDependency */,
+			);
+			name = geosyTests;
+			productName = geosyTests;
+			productReference = D82E0F46268AA46400BDECA9 /* geosyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D82E0F50268AA46400BDECA9 /* geosyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82E0F60268AA46400BDECA9 /* Build configuration list for PBXNativeTarget "geosyUITests" */;
+			buildPhases = (
+				953C33D5C07E8AA9CC030893 /* [CP] Check Pods Manifest.lock */,
+				D82E0F4D268AA46400BDECA9 /* Sources */,
+				D82E0F4E268AA46400BDECA9 /* Frameworks */,
+				D82E0F4F268AA46400BDECA9 /* Resources */,
+				C589E4480C5EAD72B06469D4 /* [CP] Copy Pods Resources */,
+				F9ADD676699268F4FA124401 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82E0F53268AA46400BDECA9 /* PBXTargetDependency */,
+			);
+			name = geosyUITests;
+			productName = geosyUITests;
+			productReference = D82E0F51268AA46400BDECA9 /* geosyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82E0F2D268AA46200BDECA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D82E0F34268AA46200BDECA9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D82E0F45268AA46400BDECA9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D82E0F34268AA46200BDECA9;
+					};
+					D82E0F50268AA46400BDECA9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D82E0F34268AA46200BDECA9;
+					};
+				};
+			};
+			buildConfigurationList = D82E0F30268AA46200BDECA9 /* Build configuration list for PBXProject "geosy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82E0F2C268AA46200BDECA9;
+			productRefGroup = D82E0F36268AA46200BDECA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82E0F34268AA46200BDECA9 /* geosy */,
+				D82E0F45268AA46400BDECA9 /* geosyTests */,
+				D82E0F50268AA46400BDECA9 /* geosyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D82E0F33268AA46200BDECA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82E0F40268AA46400BDECA9 /* Preview Assets.xcassets in Resources */,
+				D82E0F3D268AA46400BDECA9 /* Assets.xcassets in Resources */,
+				6EE0BFA126F6296000DD1C4A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82E0F44268AA46400BDECA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82E0F4F268AA46400BDECA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F948E078463274DF4913693 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-geosyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3699998D22198DB50C117EFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-geosy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C951E2020927081217C3B9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geosy/Pods-geosy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geosy/Pods-geosy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-geosy/Pods-geosy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953C33D5C07E8AA9CC030893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-geosy-geosyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC0C3F8A13F6098C64F91D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geosy/Pods-geosy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geosy/Pods-geosy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-geosy/Pods-geosy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C589E4480C5EAD72B06469D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geosy-geosyUITests/Pods-geosy-geosyUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geosy-geosyUITests/Pods-geosy-geosyUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-geosy-geosyUITests/Pods-geosy-geosyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9ADD676699268F4FA124401 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geosy-geosyUITests/Pods-geosy-geosyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-geosy-geosyUITests/Pods-geosy-geosyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-geosy-geosyUITests/Pods-geosy-geosyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82E0F31268AA46200BDECA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D889DA4426E7B2AE00AAF618 /* MiniCard.swift in Sources */,
+				D829ADFC26EB280A00B3F991 /* VisitedButtonView.swift in Sources */,
+				6EE0BF9B26F61FD600DD1C4A /* UserData.swift in Sources */,
+				D843B11526DF6F9100FF964C /* PoemMapView.swift in Sources */,
+				D889DA4826E89DFE00AAF618 /* GoogleMapsRepresentable.swift in Sources */,
+				6E14AD4D26C3DE960071255E /* PoemViewModel.swift in Sources */,
+				D8D32BB226EA58F500AD8D5E /* VHSelectView.swift in Sources */,
+				D85C94BB26D3D910006B97A7 /* DraftDataModel.xcdatamodeld in Sources */,
+				6EAD17F826C2C0DC0022AE1D /* HomeTopBarView.swift in Sources */,
+				6E94C85F26B0EF9F0039D150 /* ExampleViewModel.swift in Sources */,
+				D8E2749B26EEF70A00F03689 /* MasterPoeruPlaceView.swift in Sources */,
+				D87CE19A26EE066A00577A06 /* PosterButtonView.swift in Sources */,
+				6EE0BF9626F61EEA00DD1C4A /* Keychain.swift in Sources */,
+				6E8B313126F30B83002BEEA5 /* FriendUserInfo.swift in Sources */,
+				6EE0BF9226F61D6100DD1C4A /* SignInWithAppleToFirebase.swift in Sources */,
+				6EFDDEE926A9CC3F00CD4767 /* AppKey.swift in Sources */,
+				6E90989526C8CEDC00787304 /* HomeStackedCardView.swift in Sources */,
+				D8E274A026EF0CFF00F03689 /* DestinationFullCardView.swift in Sources */,
+				6EE0BF9826F61F4300DD1C4A /* SharedWebCredential.swift in Sources */,
+				D8E2749D26EEF74800F03689 /* MasterPoeruPlaceMapView.swift in Sources */,
+				D802380A26EC7CA8000A8DD4 /* SearchView.swift in Sources */,
+				D8EF842226DDE885004B2772 /* VertivalTextView.swift in Sources */,
+				D8AF002126C7AC63003F21C7 /* EditView.swift in Sources */,
+				D889DA4A26E8FCDE00AAF618 /* BookMarkButtonView.swift in Sources */,
+				D85C94AC26CB83F6006B97A7 /* PoeruPlaceMapView.swift in Sources */,
+				6EAF1B8826DFA7CB00E4DCF8 /* LoginView.swift in Sources */,
+				6E94C86326B1523E0039D150 /* ExampleModel.swift in Sources */,
+				6E94C86526B1650E0039D150 /* ExampleModalView.swift in Sources */,
+				D8A41BD52693D589005E7E01 /* GoogleMapsView.swift in Sources */,
+				6EA4EDE626D534A800D3ACC0 /* LoginContentView.swift in Sources */,
+				D8A41BC82693D3B4005E7E01 /* AppDelegate.swift in Sources */,
+				D85C94BD26D3DCCC006B97A7 /* DraftDataViewModel.swift in Sources */,
+				D895C92026AEAB8900A645D5 /* PoeruPlaceView.swift in Sources */,
+				D85C94B226D343B7006B97A7 /* ValidPostedMapview.swift in Sources */,
+				6EE0BF9426F61EB700DD1C4A /* UserDatakeychain.swift in Sources */,
+				D8A35FC226D4DFB400CC1286 /* DraftView.swift in Sources */,
+				6E94C85D26B0E9AF0039D150 /* ExampleView.swift in Sources */,
+				D85C94B026D33223006B97A7 /* PostedMapView.swift in Sources */,
+				D8AF001B26C76312003F21C7 /* PostView.swift in Sources */,
+				D843B11726DFA8C500FF964C /* FullCardViewModel.swift in Sources */,
+				D8A35FC026D4DF3B00CC1286 /* DraftListView.swift in Sources */,
+				6E76AC3D26DDD88F00469795 /* UserModel.swift in Sources */,
+				D8FD98EC26C6B1B3007C2D89 /* MypageView.swift in Sources */,
+				D8AF001D26C76866003F21C7 /* DestinationFriendpageView.swift in Sources */,
+				6EBF99D726E33EDC0022DCAD /* CardView.swift in Sources */,
+				D82E0F3B268AA46200BDECA9 /* ContentView.swift in Sources */,
+				D8E2749726EE42ED00F03689 /* UserCardView.swift in Sources */,
+				6E14AD4B26C3DE210071255E /* PoemModel.swift in Sources */,
+				D82E0F39268AA46200BDECA9 /* geosyApp.swift in Sources */,
+				D8E2749926EEF68E00F03689 /* MasterPoeruView.swift in Sources */,
+				6E2E00FA26CD5B27001B3B26 /* DownlodaFunc.swift in Sources */,
+				D8AF001926C75E26003F21C7 /* FollowerView.swift in Sources */,
+				D8EA83B226F21A0B0075EAD4 /* StackedCardView.swift in Sources */,
+				6EA4EDE426D5345900D3ACC0 /* UserDataViewModel.swift in Sources */,
+				6EBF99DB26E3796B0022DCAD /* CardModel.swift in Sources */,
+				D8AF001F26C7A6A6003F21C7 /* UserInfoView.swift in Sources */,
+				6EAF1B8A26DFA89100E4DCF8 /* RegisterView.swift in Sources */,
+				D82E0F39268AA46200BDECA9 /* geosyApp.swift in Sources */,
+				D8D19D5326C0BE24004DB441 /* PoeruView.swift in Sources */,
+				D889DA4626E7BB5800AAF618 /* Utils.swift in Sources */,
+				D881D4B526C6C66F002F45A0 /* FrierndpageView.swift in Sources */,
+				D85C94AE26CBC8F8006B97A7 /* ImagePicker.swift in Sources */,
+				D89F605A269BBC1B003EC4C2 /* FullCardView.swift in Sources */,
+				6E90988D26C8CA6300787304 /* PoemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82E0F42268AA46400BDECA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82E0F4B268AA46400BDECA9 /* geosyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82E0F4D268AA46400BDECA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82E0F56268AA46400BDECA9 /* geosyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D82E0F48268AA46400BDECA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82E0F34268AA46200BDECA9 /* geosy */;
+			targetProxy = D82E0F47268AA46400BDECA9 /* PBXContainerItemProxy */;
+		};
+		D82E0F53268AA46400BDECA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82E0F34268AA46200BDECA9 /* geosy */;
+			targetProxy = D82E0F52268AA46400BDECA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D82E0F58268AA46400BDECA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 x86_64";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D82E0F59268AA46400BDECA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D82E0F5B268AA46400BDECA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CAFCDCEA4192601A8E39ED /* Pods-geosy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = geosy/geosy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.2;
+				DEVELOPMENT_ASSET_PATHS = "\"geosy/Preview Content\"";
+				DEVELOPMENT_TEAM = URXNF69MDX;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = geosy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.atpoet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Atpoet;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D82E0F5C268AA46400BDECA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D464F0E6109D2486F72359D /* Pods-geosy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = geosy/geosy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.2;
+				DEVELOPMENT_ASSET_PATHS = "\"geosy/Preview Content\"";
+				DEVELOPMENT_TEAM = URXNF69MDX;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = geosy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.atpoet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Atpoet;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D82E0F5E268AA46400BDECA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C3003B5B22DAED1ACB868B /* Pods-geosyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URXNF69MDX;
+				INFOPLIST_FILE = geosyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.geosyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geosy.app/geosy";
+			};
+			name = Debug;
+		};
+		D82E0F5F268AA46400BDECA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0BBC0EA661332A2B56645A /* Pods-geosyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URXNF69MDX;
+				INFOPLIST_FILE = geosyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.geosyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geosy.app/geosy";
+			};
+			name = Release;
+		};
+		D82E0F61268AA46400BDECA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCD6414A7EB20702B3FDD0D /* Pods-geosy-geosyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = URXNF69MDX;
+				INFOPLIST_FILE = geosyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.geosyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Atpoet;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = geosy;
+			};
+			name = Debug;
+		};
+		D82E0F62268AA46400BDECA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC13CF59493FC62D5F0AAB2 /* Pods-geosy-geosyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = URXNF69MDX;
+				INFOPLIST_FILE = geosyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.geosyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Atpoet;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = geosy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82E0F30268AA46200BDECA9 /* Build configuration list for PBXProject "geosy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82E0F58268AA46400BDECA9 /* Debug */,
+				D82E0F59268AA46400BDECA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82E0F5A268AA46400BDECA9 /* Build configuration list for PBXNativeTarget "geosy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82E0F5B268AA46400BDECA9 /* Debug */,
+				D82E0F5C268AA46400BDECA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82E0F5D268AA46400BDECA9 /* Build configuration list for PBXNativeTarget "geosyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82E0F5E268AA46400BDECA9 /* Debug */,
+				D82E0F5F268AA46400BDECA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82E0F60268AA46400BDECA9 /* Build configuration list for PBXNativeTarget "geosyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82E0F61268AA46400BDECA9 /* Debug */,
+				D82E0F62268AA46400BDECA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D85C94B926D3D910006B97A7 /* DraftDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D85C94BA26D3D910006B97A7 /* PostDataModel.xcdatamodel */,
+			);
+			currentVersion = D85C94BA26D3D910006B97A7 /* PostDataModel.xcdatamodel */;
+			path = DraftDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D82E0F2D268AA46200BDECA9 /* Project object */;
+}
